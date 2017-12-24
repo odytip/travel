@@ -1880,7 +1880,6 @@
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
-		appearance: none;
 		-moz-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
 		-webkit-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -2011,7 +2010,6 @@
 			-moz-pointer-events: none;
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
-			pointer-events: none;
 			opacity: 0.25;
 		}
 
@@ -2174,7 +2172,6 @@
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
-		appearance: none;
 		background: transparent;
 		border: solid 2px;
 		color: inherit;
@@ -2184,14 +2181,6 @@
 		text-decoration: none;
 		width: 100%;
 	}
-
-		input[type="text"]:invalid,
-		input[type="password"]:invalid,
-		input[type="email"]:invalid,
-		select:invalid,
-		textarea:invalid {
-			box-shadow: none;
-		}
 
 	.select-wrapper {
 		text-decoration: none;
@@ -2213,7 +2202,6 @@
 			display: block;
 			height: 3rem;
 			line-height: 3rem;
-			pointer-events: none;
 			position: absolute;
 			right: 0;
 			text-align: center;
@@ -2241,7 +2229,6 @@
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
-		appearance: none;
 		display: block;
 		float: left;
 		margin-right: -2rem;
@@ -2910,7 +2897,6 @@
 		-moz-user-select: none;
 		-webkit-user-select: none;
 		-ms-user-select: none;
-		user-select: none;
 		cursor: default;
 		list-style: none;
 		margin: 0 0 2rem 2px;
@@ -3047,7 +3033,6 @@
 			-moz-pointer-events: none;
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
-			pointer-events: none;
 			-moz-transition: opacity 1s ease-in-out;
 			-webkit-transition: opacity 1s ease-in-out;
 			-ms-transition: opacity 1s ease-in-out;
@@ -3212,7 +3197,6 @@
 			-moz-pointer-events: none;
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
-			pointer-events: none;
 			-moz-transform: translateY(2rem);
 			-webkit-transform: translateY(2rem);
 			-ms-transform: translateY(2rem);
@@ -3339,11 +3323,9 @@
 		-moz-pointer-events: none;
 		-webkit-pointer-events: none;
 		-ms-pointer-events: none;
-		pointer-events: none;
 		-moz-user-select: none;
 		-webkit-user-select: none;
 		-ms-user-select: none;
-		user-select: none;
 		height: 20rem;
 		padding-bottom: 8rem;
 		position: relative;
@@ -3394,7 +3376,6 @@
 			-moz-pointer-events: auto;
 			-webkit-pointer-events: auto;
 			-ms-pointer-events: auto;
-			pointer-events: auto;
 			border-style: solid;
 			border-color: #ffffff;
 			border-width: 5px !important;
